@@ -4,144 +4,192 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sebastiaan ter Keurs | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-  <header class="hero">
-    <div class="hero-tag">Computer Science @ University of Alberta</div>
 
-    <p class="hero-sub">First-year CS student with a love for projects and repurposing old devices</p>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+          <div class="hero-tag">Computer Science @ University of Alberta</div>
+          <p class="hero-sub">First-year CS student with a love for projects and repurposing old devices</p>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <!-- ABOUT -->
-  <section class="section about" id="about">
-    <div class="about-grid">
-      <div class="about-text">
-        <h2>Hey, I'm Sebastiaan ter Keurs.</h2>
-    
 
+
+
+  <!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="container">
+
+    <!-- name -->
+     <br>
+    <div class="row mb-4">
+     <div class="col-12 about-text text-center">
+       <h2>Hey, I'm Sebastiaan ter Keurs.</h2>
+     </div>
+    </div>
+    <br>
+
+
+
+    <!--bio left, skills right -->
+    <div class="row g-4">
+      <div class="col-12 col-md-6">
+        <h3>Bio</h3>
+        <p>I'm a first-year CS student at the University of Alberta. I like building things, self-hosting services, and finding new uses for old hardware.</p>
+        <p>Currently exploring machine learning, algorithms, and web development.</p>
+        <p>I enjoy playing with pen testing software and hardware.</p>
+        <p>I also enjoy playing and modding video games like half-life and Deadlock</p>
+        <p>Last year was my first big project where I buit a processing power farm on recycled computer parts.</p>
       </div>
-      <div class="about-skills">
+      <div class="col-12 col-md-6 about-skills">
         <h3>Skills</h3>
         <ul class="skill-list">
-          <li>Python</li>
-          <li>Physical computer assembly and maintanence</li>
+          <li>Physical computer assembly and maintenance</li>
           <li>Server Setup and self host</li>
           <li>NAS structuring and setup</li>
-          <li>Data Structures and Algorithms</li>
           <li>Sorting Algorithms</li>
           <li>Searching Algorithms</li>
-          <li>Binary Trees and Hash Tables</li>
           <li>Machine Learning (scikit-learn)</li>
           <li>Hashing</li>
-          <li>HTML / CSS / JS</li>
+          <li>PYTHON / HTML / CSS / JS</li>
           <li>Jupyter Notebooks</li>
         </ul>
       </div>
     </div>
-  </section>
+
+  </div>
+</section>
+
+
+
+<hr class="my-3">
+
 
   <!-- PROJECTS -->
-   
   <section class="section projects" id="projects">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2>Projects</h2>
+        </div>
+      </div>
 
-    <h2>Projects</h2>
-    <div class="project-grid" id="project-grid">
-    <!-- projects start-->
 
 
-<!--Website-->
 
-        <details class="accordion-item">
+
+
+
+      <div class="row g-3 project-grid" id="project-grid">
+
+        <div class="col-12">
+          <details class="accordion-item">
             <summary class="accordion-trigger">
-                <span class="accordion-title">This Website!</span>
-                <span class="accordion-meta">
+              <span class="accordion-title">This Website!</span>
+              <span class="accordion-meta">
                 <span class="project-tag"> . HTML/CSS . Website</span>
                 <span class="project-year">2026</span>
                 <span class="accordion-arrow">↓</span>
-                </span>
+              </span>
             </summary>
             <div class="accordion-body">
-                <p>started working on a website to host and present some of my work</p>
-                <a href="https://github.com/FishMansss/Portfolio_Website" class="project-link">View Code →</a>     <!--link of github repo for project-->
+              <p>Started working on a website to host and present some of my work</p>
+              <a href="https://github.com/FishMansss/Portfolio_Website" class="project-link">View Code →</a>
             </div>
-            <br>
+          </details>
+        </div>
 
-        </details>
 
 
-<!--ass 1-->
-        
-        <details class="accordion-item">
+
+
+
+
+
+        <div class="col-12">
+          <details class="accordion-item">
             <summary class="accordion-trigger">
-                <span class="accordion-title">Extensive Country-Tariff Calculator</span>
-                <span class="accordion-meta">
+              <span class="accordion-title">Extensive Country-Tariff Calculator</span>
+              <span class="accordion-meta">
                 <span class="project-tag"> . Python . Algorithms</span>
                 <span class="project-year">2026</span>
                 <span class="accordion-arrow">↓</span>
-                </span>
+              </span>
             </summary>
             <div class="accordion-body">
-                <p>assignment I did for cmput 175, not super interesting imo but shows I have good organizational skills</p>
-                <a href="https://github.com/FishMansss/Country-Tariff-Calculator/tree/main" class="project-link">View Code →</a>     <!--link of github repo for project-->
+              <p>Assignment I did for CMPUT 175 — shows good organizational and algorithmic thinking</p>
+              <a href="https://github.com/FishMansss/Country-Tariff-Calculator/tree/main" class="project-link">View Code →</a>
             </div>
-            <br>
-        </details>
-
-<!--ass 2-->
+          </details>
+        </div>
 
 
-<details class="accordion-item">
+
+
+        <div class="col-12">
+          <details class="accordion-item">
             <summary class="accordion-trigger">
-                <span class="accordion-title">My first encounter with training AI</span>
-                <span class="accordion-meta">
+              <span class="accordion-title">My first encounter with training AI</span>
+              <span class="accordion-meta">
                 <span class="project-tag"> . Python . Algorithms . AI</span>
                 <span class="project-year">2026</span>
                 <span class="accordion-arrow">↓</span>
-                </span>
+              </span>
             </summary>
             <div class="accordion-body">
-                <p>Train AI model for calculating estimated employee attrition (how long they stick around) using scikit learn library</p>
-                <a href="https://github.com/FishMansss/training-model-for-employee-attrition/blob/main/attrition.ipynb" class="project-link">View Code →</a>     <!--link of github repo for project-->
+              <p>Trained an AI model to calculate estimated employee attrition using the scikit-learn library</p>
+              <a href="https://github.com/FishMansss/training-model-for-employee-attrition/blob/main/attrition.ipynb" class="project-link">View Code →</a>
             </div>
-            <br>
-        </details>
+          </details>
+        </div>
 
-
-
-
-
-
-
-
-
-
-      
-    <!-- projects end-->
-
+      </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-   <br><br>
-  <section class="section contact" id="contact">
-    <h2>Let's Connect</h2>
-    <p>I'm always open to chatting about projects, internships, or cool ideas.</p>
-    <div class="contact-links">
-      <a href="mailto:bas.terkeurs@gmail.com" class="btn">Email Me</a>
 
-      <a href="https://github.com/FishMansss" class="btn btn-ghost" target="_blank">GitHub</a>
+
+
+
+
+  <!-- CONTACT -->
+  <section class="section contact py-5" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 text-center">
+          <h2>Let's Connect</h2>
+          <p>I'm always open to chatting about projects, internships, or cool ideas.</p>
+          <div class="contact-links d-flex justify-content-center gap-3">
+            <a href="mailto:bas.terkeurs@gmail.com" class="btn">Email Me</a>
+            <a href="https://github.com/FishMansss" class="btn btn-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <span>© 2025 Sebastiaan ter Keurs · Built with HTML and CSS</span>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <span>© 2026 Sebastiaan ter Keurs · Built with HTML and CSS</span>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
